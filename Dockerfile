@@ -1,4 +1,4 @@
-FROM node:lts
+FROM --platform=linux/amd64 node:lts
 
 WORKDIR /aws-app
 
